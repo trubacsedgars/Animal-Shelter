@@ -1,0 +1,121 @@
+.form {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.form__heading {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form__content {
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.form__input,
+.form__input-select {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+}
+
+.form__input-select {
+  cursor: pointer;
+}
+
+  // Select
+.form__input-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,<svg fill='blue' width='34' height='24' xmlns='http://www.w3.org/2000/svg'><path d='m0,6l12,12l12,-12l-24,0z'/><path fill='none' d='m0,0l24,0l0,24l-24,0l0,-24z'/></svg>");
+    background-position-x: 100%;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+}
+
+// For icons
+
+.button-wrapper-icons {
+  padding: 30px;
+}
+
+.button-icons {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button-icons-icon {
+  font-size: 40px;
+  color: #6366F1;
+  transition: color 0.3s;
+
+  &:hover,
+  &:active {
+    color: #4338CA;
+  }
+}
+
+.form_content-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+// Modal window
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+
+.close-modal {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 1px solid #d1d0d0;
+  color: #d1d0d0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s, border-color 0.3s;
+
+  &:hover,
+  &:active {
+    border-color: #959393;
+    color: #959393;
+  }
+}
+
+

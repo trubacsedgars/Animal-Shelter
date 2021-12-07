@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+body {
+background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.7)), url('images/bg.jpeg');
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}

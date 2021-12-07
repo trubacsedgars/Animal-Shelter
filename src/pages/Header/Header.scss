@@ -1,0 +1,18 @@
+.header-wrapper {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  border-radius: 8px;
+  filter: invert(100%);
+}
+
+.header-wrapper-language {
+  display: flex;
+  justify-content: flex-end;
+}

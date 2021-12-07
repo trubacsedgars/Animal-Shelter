@@ -1,0 +1,47 @@
+.animals-gallery-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, minmax(50px, auto));
+  gap: 30px 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.animals__gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.animals__gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  max-width: 400px;
+  max-height: 230px;
+}
+
+.animals__gallery-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+
+.animals__gallery-content-name,
+.animals__gallery-content-species {
+  color: #333333;
+}
+
+.animals__gallery-content-name {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.animals__gallery-content-species {
+  font-size: 20px;
+  font-weight: 400;
+}
